@@ -731,14 +731,14 @@ a {
         background-position: inherit;
         &__text {
             &--title {
-                font-size: 28px;
+                font-size: 32px;
             }
             &--subtitle {
-                font-size: 16px;
+                font-size: 20px;
 
             }
             &--descr {
-                font-size: 12px;
+                font-size: 18px;
             }
             &--imprt {
                 margin: 20px auto 30px auto;
@@ -837,13 +837,33 @@ a {
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, .7);
             z-index: 2;
         }
         &__text {
             max-width: 100%;
             position: relative;
             z-index: 10;
+        }
+    }
+
+    .about {
+        &__inner {
+            &--item {
+                .item__line {
+                    margin-bottom: 20px;
+                    &--img {
+                        display: block;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .buy {
+        &__inner {
+            margin: 0 auto 20px auto;
         }
     }
 }

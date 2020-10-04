@@ -635,13 +635,13 @@ a {
     background-position: inherit;
   }
   .intro__text--title {
-    font-size: 28px;
+    font-size: 32px;
   }
   .intro__text--subtitle {
-    font-size: 16px;
+    font-size: 20px;
   }
   .intro__text--descr {
-    font-size: 12px;
+    font-size: 18px;
   }
   .intro__text--imprt {
     margin: 20px auto 30px auto;
@@ -720,12 +720,24 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     z-index: 2;
   }
   .intro__text {
     max-width: 100%;
     position: relative;
     z-index: 10;
+  }
+
+  .about__inner--item .item__line {
+    margin-bottom: 20px;
+  }
+  .about__inner--item .item__line--img {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .buy__inner {
+    margin: 0 auto 20px auto;
   }
 }
