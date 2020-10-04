@@ -712,6 +712,7 @@ a {
 
   .intro {
     position: relative;
+    background-position: center;
   }
   .intro::after {
     content: "";

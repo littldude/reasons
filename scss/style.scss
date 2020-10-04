@@ -830,6 +830,7 @@ a {
     }
     .intro {
         position: relative;
+        background-position: center;
         &::after {
             content: '';
             position: absolute;
