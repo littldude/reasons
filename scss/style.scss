@@ -58,13 +58,13 @@ a {
             margin-left: 10px;
             &--num {
                 color: $color_text;
-                font-family: 'Roboto Slab', serif;
+                font-family: 'Roboto', sans-serif;
                 font-size: 24px;
                 font-weight: 500;
             }
             span {
                 color: $color_text;
-                font-family: 'Roboto Slab', serif;
+                font-family: 'Roboto', sans-serif;
                 font-size: 16px;
             }
         }
@@ -271,13 +271,13 @@ a {
             font-weight: 700;
         }
         &--cost {
-            font-family: 'Roboto Slab', serif;
+            font-family: 'Roboto', sans-serif;
             color: #fbfbfb;
             font-size: 64px;
             font-weight: 700;
             &__currency {
                 margin-bottom: 40px;
-                font-family: 'Roboto Slab', serif;
+                font-family: 'Roboto', sans-serif;
                 color: #fbfbfb;
                 font-size: 40px;
                 font-weight: 700;
