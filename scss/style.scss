@@ -7,6 +7,9 @@ $color_violet: #6A647F;
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #fbfbfb;
     font-family: 'Raleway', sans-serif;
@@ -123,13 +126,13 @@ a {
     }
     &__red {
         margin: 0 auto;
-        width: 360px;
-        height: 65px;
+        padding: 20px 90px;
         border-radius: 50px;
         background-color: $color_btn;
         color: #f0f0f0;
         font-size: 24px;
         font-weight: 500;
+        text-align: center;
     }
     &__violet {
         width: 200px;
