@@ -414,7 +414,6 @@ a {
 
   .button__red {
     width: 300px;
-    height: 50px;
     font-size: 18px;
   }
 
@@ -612,7 +611,6 @@ a {
   .button__red {
     margin: 0 auto;
     width: 250px;
-    height: 40px;
     font-size: 16px;
   }
 
@@ -658,12 +656,10 @@ a {
 
   .button__red {
     width: 200px;
-    height: 40px;
     font-size: 16px;
   }
   .button__violet {
     width: 150px;
-    height: 25px;
     font-size: 12px;
   }
 
