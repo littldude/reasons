@@ -123,7 +123,8 @@ a {
 }
 .button__red {
   margin: 0 auto;
-  padding: 20px 90px;
+  width: 360px;
+  padding: 10px 0;
   border-radius: 50px;
   background-color: #E94242;
   color: #f0f0f0;
@@ -133,13 +134,14 @@ a {
 }
 .button__violet {
   width: 200px;
-  height: 36px;
+  padding: 5px 0;
   border-radius: 5px;
   background-color: #6A647F;
   color: #fbfbfb;
   font-size: 16px;
   font-weight: 500;
   text-transform: lowercase;
+  text-align: center;
 }
 
 .section__title {
