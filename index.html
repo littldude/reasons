@@ -200,7 +200,7 @@
                 <!-- /.buy__title -->
                 <span class="buy__inner--cost">1200 ₽</span>
                 <span class="buy__inner--cost__currency">16 &#36; / 13 &#8364; / 440 &#8372;</span>
-                <a class="button button__red" href="https://kurs-kurkin.ru/reason" target="_blank">Приобрести!</a> 
+                <a class="button button__red" id="BuyItNow" href="https://kurs-kurkin.ru/reason" target="_blank">Приобрести!</a> 
                 <!-- /.button -->
             </div>
             <!-- /.buy__inner -->
@@ -286,5 +286,11 @@
         <!-- /.container -->
     </footer>
     <!-- /.footer -->
+
+    <script type="text/javascript">
+        $('#$BuyItNow').click(function() {
+         fbq('track', 'Purchase', {currency: "RUB", value:1200.00});
+        });
+    </script>
 </body>
 </html>
